@@ -43,24 +43,7 @@ public class UserName {
     return n.substring(0, 1);
     
     
-  } // end initialize method   
-}
-    
-
-public static String generatepassword(int length) {
-    String password = "";
-    generatepassword(8);
-    //generate a random number
-    int rand = (int)(Math.random()*(90-65+1)+65);
-    char c = (char)rand; 
-    System.out.println(c);
-    //65-90 capital letters
-    //97-122 lowercase 
-    //33 - 47 secial symbols
-    
-    
-    
-    return password;
+  } // end initialize method  
 }// end class
 
 
